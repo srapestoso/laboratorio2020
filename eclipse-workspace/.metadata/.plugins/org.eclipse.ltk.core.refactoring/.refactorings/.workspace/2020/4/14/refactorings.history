@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;UTN&apos; to &apos;UTNFunctions&apos;" description="Rename resource &apos;UTN&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/UTN" name="UTNFunctions" stamp="1586035995169" updateReferences="true"/>
-</session>
