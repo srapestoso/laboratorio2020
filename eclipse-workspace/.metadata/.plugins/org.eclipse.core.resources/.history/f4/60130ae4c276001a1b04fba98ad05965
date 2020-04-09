@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : UTN.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "utn.h"
+
+int main(void) {
+	int n;
+	setbuf(stdout, NULL);
+	fflush(stdin);
+	utn_getNumero(&n, "Ingrese el numero:", "error",1,9,3);
+	printf("num ingresado: %d", n );
+
+	return 0;
+}
