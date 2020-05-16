@@ -31,7 +31,7 @@ int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo
 			 *pResultado = num;
 		 }
 	 }
-return ret;
+	 return ret;
 }
 static int getInt(int* pResultado)
 {

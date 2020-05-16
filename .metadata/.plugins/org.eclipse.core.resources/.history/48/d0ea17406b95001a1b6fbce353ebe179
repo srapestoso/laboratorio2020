@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : Parcialito.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+
+	setbuf(stdout, NULL);
+	int numero;
+
+	printf("Ingrese un numero entre 200 y 500: ");
+	scanf("%d",&numero);
+
+	if(numero <= 500 && numero >= 200)
+	{
+	printf("Su numero ingresado es: %d",numero);
+	}
+	else
+	{
+	printf("Error, ese numero no esta entre 200 y 500");
+	}
+
+   return 0;
+}

@@ -1,0 +1,91 @@
+20:41:36 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+..\src\ArrayEmployees.c:296:1: error: expected identifier or '(' before '{' token
+  296 | {
+      | ^
+..\src\ArrayEmployees.c:326:1: error: expected identifier or '(' before '{' token
+  326 | {
+      | ^
+20:41:59 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+gcc -o TP2 "src\\ArrayEmployees.o" "src\\TP2.o" 
+00:50:26 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+gcc -o TP2 "src\\ArrayEmployees.o" "src\\TP2.o" 
+00:38:08 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+..\src\ArrayEmployees.c: In function 'sortEmployees':
+..\src\ArrayEmployees.c:299:6: warning: variable 'answer' set but not used [-Wunused-but-set-variable]
+  299 |  int answer = -1;
+      |      ^~~~~~
+..\src\ArrayEmployees.c: At top level:
+..\src\ArrayEmployees.c:340:2: error: expected identifier or '(' before 'return'
+  340 |  return answer;
+      |  ^~~~~~
+..\src\ArrayEmployees.c:341:1: error: expected identifier or '(' before '}' token
+  341 | }
+      | ^
+..\src\ArrayEmployees.c: In function 'sortEmployees':
+..\src\ArrayEmployees.c:339:2: warning: control reaches end of non-void function [-Wreturn-type]
+  339 |  }
+      |  ^
+00:40:42 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+..\src\ArrayEmployees.c: In function 'sortEmployees':
+..\src\ArrayEmployees.c:350:1: error: expected declaration or statement at end of input
+  350 | }
+      | ^
+..\src\ArrayEmployees.c:350:1: warning: control reaches end of non-void function [-Wreturn-type]
+  350 | }
+      | ^
+At top level:
+..\src\ArrayEmployees.c:342:6: warning: 'menuSort' defined but not used [-Wunused-function]
+  342 | void menuSort()
+      |      ^~~~~~~~
+00:41:33 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+..\src\ArrayEmployees.c: In function 'sortEmployees':
+..\src\ArrayEmployees.c:350:1: error: expected declaration or statement at end of input
+  350 | }
+      | ^
+..\src\ArrayEmployees.c:350:1: warning: control reaches end of non-void function [-Wreturn-type]
+  350 | }
+      | ^
+At top level:
+..\src\ArrayEmployees.c:342:6: warning: 'menuSort' defined but not used [-Wunused-function]
+  342 | void menuSort()
+      |      ^~~~~~~~
+00:41:56 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+..\src\ArrayEmployees.c: In function 'sortEmployees':
+..\src\ArrayEmployees.c:350:1: error: expected declaration or statement at end of input
+  350 | }
+      | ^
+..\src\ArrayEmployees.c:350:1: warning: control reaches end of non-void function [-Wreturn-type]
+  350 | }
+      | ^
+At top level:
+..\src\ArrayEmployees.c:342:6: warning: 'menuSort' defined but not used [-Wunused-function]
+  342 | void menuSort()
+      |      ^~~~~~~~
+00:42:18 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+gcc -o TP2 "src\\ArrayEmployees.o" "src\\TP2.o" 
+00:45:12 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+gcc -o TP2 "src\\ArrayEmployees.o" "src\\TP2.o" 
+Info: Nothing to build for TP2
+00:47:59 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2 "src\\ArrayEmployees.o" "src\\TP2.o" 

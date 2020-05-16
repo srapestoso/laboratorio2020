@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : Parcialito.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void func(int* a, int b)
+{
+	*a+=43;
+	b+=18;
+	return ;
+
+}
+
+int main(void) {
+	int num1 = 65;
+	int num2=50;
+	func(&num1,num2);
+	printf("%d %d", num1 , num2);
+	return EXIT_SUCCESS;
+}

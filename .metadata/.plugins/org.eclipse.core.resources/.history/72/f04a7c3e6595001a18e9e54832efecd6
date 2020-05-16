@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : Parcialito.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <ctype.h>
+
+int main () {
+   int i = 0;
+   char c;
+   char str[] = "TUTORIALS POINT";
+
+   while( str[i] ) {
+      putchar(tolower(str[i]));
+      i++;
+   }
+
+   return(0);
+}

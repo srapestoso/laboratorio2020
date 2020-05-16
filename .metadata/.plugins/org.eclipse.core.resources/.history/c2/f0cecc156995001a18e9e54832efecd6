@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : Parcialito.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main () {
+
+	int a =0;
+	int b = 1;
+
+	if(a&&b)
+	{
+		printf("Mensaje 1");
+	}else
+	{
+		printf("Mensaje 2");
+	}
+
+   return(0);
+}

@@ -1,0 +1,51 @@
+/*
+ ============================================================================
+ Name        : Parcialito.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int esPar(int n)
+{
+	int retorno = 0;
+
+	if(n%2==0)
+	{
+		retorno = 1;
+	}
+	else{retorno = 0;
+
+	}
+	return retorno;
+}
+
+int main () {
+   int n;
+
+   int r;
+
+   scanf("%d", &n);
+
+   r = esPar(n);
+
+   if(r==1){
+	   printf("Es par");
+   }
+   else if(r==0){
+	   printf("Es impar");
+   }
+   else
+   {
+	   printf("Error, no se ingresó numero");
+   }
+
+   printf("%d", r);
+
+   return(0);
+}

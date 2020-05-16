@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : Parcialito.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+
+	char arrayLetras[5] = {'d'};
+	int i;
+
+   for(i=0; i<0; i++)
+   {
+	   printf("%s", arrayLetras[i]);
+   }
+
+   return(0);
+}

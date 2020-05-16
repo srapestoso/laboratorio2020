@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : Parcialito.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+
+	setbuf(stdout, NULL);
+   int n;
+
+   printf("Ingrese un numero");
+   scanf("%d",&n);
+
+   if(n>=200 || n<=500){
+	   printf("Es válido");
+   }
+   else
+   {
+	   printf("No cumple la validación");
+   }
+
+   return 0;
+}

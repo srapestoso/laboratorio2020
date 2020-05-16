@@ -1,0 +1,26 @@
+/*
+ * cliente.h
+ *
+ *  Created on: 6 may. 2020
+ *      Author: Usuario
+ */
+
+#ifndef ARRAYEMPLOYEES_H_
+#define ARRAYEMPLOYEES_H_
+
+typedef struct{
+	int isEmpty;
+	int estado;
+	int kilosTotales;
+	int cantidad;
+}Residuos;
+
+typedef struct{
+	int id;
+	int cuit;
+	char direcccion[21];
+	char localidad[21];
+	int isEmpty;
+}Cliente;
+
+#endif /* ARRAYEMPLOYEES_H_ */
